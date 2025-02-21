@@ -1,0 +1,63 @@
+# Visual Studio specific
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+out/
+TestResults/
+Debug/
+Release/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+global.json
+appsettings*.json
+secrets.json
+launchSettings.json
+
+# NuGet Packages
+*.nupkg
+packages/
+!packages/repositories.config
+
+# Entity Framework Migrations
+Migrations/
+
+# Logs & User Specific Files
+logs/
+*.log
+*.tlog
+*.ide
+
+# Resharper & Rider
+*.DotSettings.user
+.idea/
+
+# Docker
+docker-compose.override.yml
+**/docker-compose.override.yml
+.env
+
+# Kubernetes
+charts/
+*.kubeconfig
+k8s-secrets.yaml
+helm-release.yaml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Rider
+.idea/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
